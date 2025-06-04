@@ -1,0 +1,18 @@
+[project]
+name = "dotwatcher"
+version = "0.1.0"
+description = "Nuke unwanted dotfiles as soon as they appear"
+authors = [
+    {name = "Ali Ghahraei",email = "aligf94@gmail.com"}
+]
+license = {text = "GPL-3.0-only"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "watchdog (>=6.0.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
